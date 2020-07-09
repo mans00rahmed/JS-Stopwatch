@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<br><br>
+<body style="color: aliceblue; background-color: black; text-align: center; ">
+
+<div style="border: 5px solid white; border-radius: 120px; width: 500px; margin-left: 500px;">
+    <div style="font-size: xx-large;">
+        <br>
+        <h1 style="color: aliceblue; background-color: black; display: inline;">StopWatch</h1>
+    </div>
+<br><br>
+    <div
+        style="padding: 15px; border: 2px solid white; display: inline-flex; color: aliceblue; background-color: black;">
+        <h1 id="min" style="font-size: 100px;">00</h1>
+        <h1 style="font-size: 100px;">:</h1>
+        <h1 id="sec" style="font-size: 100px;">00</h1>
+        <h1 style="font-size: 100px;">:</h1>
+        <h1 id="ms" style="font-size: 100px;">00</h1>
+    </div>
+    <br><br><br><br>
+    <div>
+        <button id="start" type="button" class="btn btn-outline-primary" onclick="start()"
+            style="color: aliceblue; background-color: black; font-size: xx-large; border-radius: 15px;">Start</button>
+        <button type="button" class="btn btn-primary" onclick="stop()"
+            style="color: aliceblue; background-color: black; font-size: xx-large;border-radius: 15px;">Stop</button>
+        <button type="button" class="btn btn-primary" onclick="reset()"
+            style="color: aliceblue; background-color: black; font-size: xx-large;border-radius: 15px;">Reset</button>
+    </div>
+    <br><br>
+    <script src="app.js"></script>
+</div>
+</body>
+
+</html>
